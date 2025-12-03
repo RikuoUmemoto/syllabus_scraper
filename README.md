@@ -10,7 +10,7 @@
 |------------|------|
 | `url_collector.py` | SPモードの授業一覧ページをクロールし、すべての日本語ページ (`preview.php`) のURLを収集します。出力先は `syllabus_urls.json`。 |
 | `scrape_syllabus_pc.py` | `syllabus_urls.json` 内の各リンクをPCモードで巡回し、授業名・教員名・授業概要・詳細情報などを抽出して `syllabus_2025_full.json` に保存します。 |
-| `scrape_syllabus_pc_withcode.py` | ↑の改定版です。授業コード、各回の詳細まで取れます。出力はscrape_syllabus_pc_withcode.jsonです。 |
+| `scrape_syllabus_pc_withcode.py` | ↑の改定版です。授業コード、各回の詳細まで取れます。出力はscrape_syllabus_pc_withcode.jsonです。基本的にはこれを使います。 |
 | `syllabus_urls.json` | 授業の詳細ページ（日本語）のURLリスト。 |
 | `syllabus_2025_full.json` | 授業名、教員名、授業概要（日本語・英語）、単位数、曜日・時限、授業計画などを含む全授業情報のJSONファイル。 |
 
